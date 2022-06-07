@@ -6,6 +6,9 @@ public class FactoryProvider {
         if (choice.equalsIgnoreCase("accountFactory")) {
             return new AccountAbsFactory();
         }
+        else if (choice.equalsIgnoreCase("colorFactory")) {
+            //return new ColorFactory();
+        }
 
         return null;
     }
